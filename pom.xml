@@ -21,7 +21,7 @@
   </organization>    
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/jdr0887/MaPSeq-Pipeline-NCNEXUS-Clean/issues</url>
+    <url>https://github.com/jdr0887/MaPSeq-Pipeline-NCNEXUS38-Clean/issues</url>
   </issueManagement>
   <licenses>    
     <license>
@@ -31,25 +31,25 @@
     </license>
   </licenses>
   <scm>
-    <url>https://github.com/jdr0887/MaPSeq-Pipeline-NCNEXUS-Clean</url>
-    <developerConnection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-NCNEXUS-Clean.git</developerConnection>
-    <connection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-NCNEXUS-Clean.git</connection>
+    <url>https://github.com/jdr0887/MaPSeq-Pipeline-NCNEXUS38-Clean</url>
+    <developerConnection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-NCNEXUS38-Clean.git</developerConnection>
+    <connection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-NCNEXUS38-Clean.git</connection>
     <tag>HEAD</tag>
   </scm>
   <dependencyManagement>
     <dependencies>
       <dependency>
-      	<groupId>edu.unc.mapseq.pipelines.ncnexus-clean</groupId>
-      	<artifactId>ncnexus-clean-workflow</artifactId>
-      	<version>0.6.50-SNAPSHOT</version>
+      	<groupId>edu.unc.mapseq.pipelines.ncnexus38-clean</groupId>
+      	<artifactId>ncnexus38-clean-workflow</artifactId>
+      	<version>0.6.1-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
   <modules>
-    <module>ncnexus-clean-workflow</module>
-    <module>ncnexus-clean-executor</module>
-    <module>ncnexus-clean-commands</module>
-    <module>ncnexus-clean-features</module>
-    <module>ncnexus-clean-messaging</module>
+    <module>ncnexus38-clean-workflow</module>
+    <module>ncnexus38-clean-executor</module>
+    <module>ncnexus38-clean-commands</module>
+    <module>ncnexus38-clean-features</module>
+    <module>ncnexus38-clean-messaging</module>
   </modules>
 </project>
